@@ -6,6 +6,10 @@ app.use("/", (req,res) =>{
     res.json({message: "Hello From Express App"})
 })
 
+app.use("/hii", (req,res) =>{
+    res.json({message: "Hello From dfdfd Express App"})
+})
+
 app.listen(9000, () =>{
     console.log(`starting server on port ${port}`)
 })
